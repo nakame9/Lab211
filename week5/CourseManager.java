@@ -28,7 +28,7 @@ class Course {
 
         System.out.print("Enter Credits: ");
         int cr = sc.nextInt();
-        sc.nextLine(); // Consume newline
+        sc.nextLine(); 
         if (cr <= 0) {
             System.out.println("Credits must be greater than 0!");
             return;
